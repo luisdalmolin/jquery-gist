@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Carregando GIST's por ajax</title>
+
+    <style type="text/css">
+    body {
+        font-family: Helvetica, sans-serif;
+        font-size: 13px;
+        margin: 10px; }
+    </style>
+    <link rel="stylesheet" href="https://gist.github.com/stylesheets/gist/embed.css" type="text/css" />
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.gist.js"></script>
+</head>
+<body>
+    <h1>Carregando Gist's por ajax</h1>
+    
+    <div data-gist="2951945"></div>
+
+    <script type="text/javascript">
+    (function() {
+        $().loadGists();
+    })();
+    </script>
+</body>
+</html>
